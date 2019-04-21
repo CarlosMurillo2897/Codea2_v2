@@ -24,6 +24,7 @@ public class Act02 extends AppCompatActivity
         setContentView(R.layout.activity_act02);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Crear Preguntas");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -89,9 +90,10 @@ public class Act02 extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.inicio) {
-            // Handle the camera action
+            Intent i = new Intent(getApplicationContext(), MainActivity.class);
+            startActivity(i);
         } else if (id == R.id.jugar) {
-
+            Mensaje("Módulo en mantenimiento.");
         } else if (id == R.id.mi_puntaje) {
             Mensaje("Módulo en mantenimiento.");
             //Intent i = new Intent(getApplicationContext(), Puntajes.class);

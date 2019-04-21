@@ -8,4 +8,14 @@
     tools:context=".Act02"
     tools:showIn="@layout/app_bar_act02">
 
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.codea2.CreaPreguntas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

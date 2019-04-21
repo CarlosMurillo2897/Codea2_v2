@@ -6,27 +6,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/inicio"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/baseline_home_black_18dp"
             android:title="INICIO" />
         <item
             android:id="@+id/jugar"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/baseline_videogame_asset_black_18dp"
             android:title="JUGAR" />
         <item
             android:id="@+id/mi_puntaje"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/baseline_bar_chart_black_18dp"
             android:title="PUNTAJES" />
         <item
             android:id="@+id/mi_cuenta"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/baseline_account_circle_black_18dp"
             android:title="MI CUENTA" />
         <item
             android:id="@+id/mis_preguntas"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/baseline_help_black_18dp"
             android:title="MIS PREGUNTAS" />
         <item
             android:id="@+id/desarrolladores"
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@drawable/baseline_code_black_18dp"
             android:title="DESARROLLADORES" />
 
     </group>

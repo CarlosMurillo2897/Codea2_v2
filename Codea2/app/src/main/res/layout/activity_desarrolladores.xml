@@ -45,7 +45,7 @@
         android:id="@+id/constraintLayout2"
         android:layout_width="267dp"
         android:layout_height="172dp"
-        android:background="#ecf0f1"
+        android:background="@color/Fondo_Alternativo"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
